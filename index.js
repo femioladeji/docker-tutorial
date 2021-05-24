@@ -57,7 +57,7 @@ app.use(
 
 app.get("/api/v1", (req, res) => {
     console.log("yeah it worked");
-    res.send("<h2>App ready, hi there again!!!</h2>");
+    res.send("<h2>App ready watchtower do your thing, hi there again!!! and again!!!</h2>");
 });
 app.use("/api/v1/post", postRouter)
 app.use("/api/v1/users", userRouter)
