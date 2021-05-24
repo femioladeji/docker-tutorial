@@ -8,6 +8,7 @@ services:
             - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
     node-docker-app:
         build: .
+        image: femidotexe/node-docker-app
         environment:
             - PORT=3000
         depends_on:
